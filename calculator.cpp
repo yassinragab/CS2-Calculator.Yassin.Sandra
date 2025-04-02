@@ -1,4 +1,5 @@
 #include <iostream>
+#include "calculator.h"
 using namespace std;
 
 int add(int a, int b) {
@@ -15,7 +16,7 @@ int multiply(int a, int b) {
 
 double divide(double a, double b) {
     if (b == 0) {
-        std::cerr << "Error: Division by zero!\n";
+        std::cout << "Error: Division by zero!\n";
         return 0;
     }
     return a / b;
@@ -46,6 +47,3 @@ int randomNumber(int min, int max) {
 }
 
 
-int main(){
-    return 0;
-}
