@@ -16,3 +16,20 @@ int main(){
     cout<< "test Random Number: " << randomNumber(1, 100) <<"\n";
         return 0;
     }
+
+    //bonus
+     
+    string expression;
+    cout << "Enter infix expression: ";
+    getline(cin, expression);
+
+    queue<string> postfix = shuntingYard(expression);
+    cout << "Postfix notation: ";
+    
+    queue<string> temp = postfix;
+    while (!temp.empty()) {
+        cout << temp.front() << " ";
+        temp.pop();
+    }
+    
+    cout << "\nResult: " << evaluatePostfix(postfix) << endl;
