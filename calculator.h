@@ -9,7 +9,11 @@ long long factorial(int n);
 int gcd(int a, int b);
 int lcm(int a, int b);
 int randomNumber(int min, int max);
+<<<<<<< Updated upstream
 int power1(int n, int x);
 
+=======
+int powerfn(int n, int x);  // Declaring powerfn function
+>>>>>>> Stashed changes
 
 #endif
