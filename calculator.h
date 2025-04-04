@@ -11,5 +11,11 @@ long long factorial(int n);
 int gcd(int a, int b);  // Greatest Common Divisor (GCD) calculation
 int lcm(int a, int b);  // Least Common Multiple (LCM) calculation
 int randomNumber(int min, int max);
+<<<<<<< Updated upstream
+int power1(int n, int x);
+
+=======
+int powerfn(int n, int x);  // Declaring powerfn function
+>>>>>>> Stashed changes
 
 #endif

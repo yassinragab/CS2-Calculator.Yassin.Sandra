@@ -46,4 +46,12 @@ int randomNumber(int min, int max) {
     return min + rand() % (max - min + 1);
 }
 
+int powerfn(int n,int x){
+    int result=1;
+
+    for(int i=0; i<x;i++){
+        result*=n;
+    }
+    return result;
+}
 

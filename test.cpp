@@ -6,7 +6,6 @@ using namespace std;
 int main(){
 
    cout<<"test add 4+6 = " << add(4,6)<<"\n";
-       
     cout<< "test Subtraction 10-4=" << subtract(10, 4) <<"\n";
     cout<< "test Multiplication 6*7=:" << multiply(6, 7) <<"\n";
     cout<< "test Division 15/3=" << divide(15, 3) <<"\n";
@@ -15,5 +14,11 @@ int main(){
     cout << "test GCD: " << gcd(48, 18) <<"\n";
     cout << "test LCM: " << lcm(12, 15) <<"\n";
     cout<< "test Random Number: " << randomNumber(1, 100) <<"\n";
+<<<<<<< Updated upstream
+    cout<<"test the power function 3^2:"<<power1(3,2)<<"\n";
+=======
+    cout << "test power function: 3^2= " << powerfn(3, 2);
+
+>>>>>>> Stashed changes
         return 0;
     }
