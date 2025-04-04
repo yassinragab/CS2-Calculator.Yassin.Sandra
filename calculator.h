@@ -9,5 +9,7 @@ long long factorial(int n);
 int gcd(int a, int b);
 int lcm(int a, int b);
 int randomNumber(int min, int max);
+int power1(int n, int x);
+
 
 #endif
